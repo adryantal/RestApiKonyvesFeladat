@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+div{
+    padding: 10px;
+    background: pink;
+    border: 1px solid grey;
+}
+
+.rekord table{
+background: powderblue;
+border: 1px solid grey;
+border-collapse: collapse;
+border: 2px solid palevioletred;
+
+}
+
+.rekord table td, th{
+    padding: 5px;
+    border: 1px solid plum;
+}
+
+.rekord table tr:nth-child(odd){
+    background-color: lavender;
+}
+
+input{
+    margin: 5px;
+}
+
+
+/*
+FELADAT: 
+
+Legördülő lista elemeit az AB-ból töltjük fel a tipussal
+Ennek a tipusnak a megfelelő adatait listázzuk
+
+Githubon a JSON server nem mukodik, ott csak tarolni tudom az adatokat.
+*/

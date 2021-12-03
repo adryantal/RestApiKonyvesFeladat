@@ -1,0 +1,85 @@
+{
+  "konyveim": [
+    {
+      "id": 2,
+      "szerzo": "Rejtő Jenő",
+      "cim": "A tizennégy karátos autó",
+      "tipus": "Regény",
+      "ar": 1300
+    },
+    {
+      "id": 4,
+      "szerzo": "József Attila",
+      "cim": "Összes versei",
+      "tipus": "Verseskötet",
+      "ar": "2500"
+    },
+    {
+      "id": 5,
+      "szerzo": "Petőfi Sándor",
+      "cim": "Összes versei",
+      "tipus": "Verseskötet",
+      "ar": "2500"
+    },
+    {
+      "szerzo": "Arany János",
+      "cim": "Összes v.",
+      "tipus": "Verseskötet",
+      "ar": "2300",
+      "id": 6
+    },
+    {
+      "szerzo": "Szepes Mária",
+      "cim": "A vörös oroszlán",
+      "tipus": "Regény",
+      "ar": "2600",
+      "id": 7
+    },
+    {
+      "szerzo": "Márai Sándor",
+      "cim": "Lucrétia fia",
+      "tipus": "Elbeszélések",
+      "ar": "3200",
+      "id": 8
+    },
+    {
+      "szerzo": "Márai Sándor",
+      "cim": "Füves könyv",
+      "tipus": "Egyéb",
+      "ar": "3400",
+      "id": 9
+    }
+  ],
+  "szerzo": [
+    {
+      "id": 3,
+      "szerzo": "Robert Merle",
+      "nemzetiseg": "magyar"
+    },
+    {
+      "id": 2,
+      "szerzo": "Rejtő Jenő",
+      "nemzetiseg": "magyar"
+    },
+    {
+      "id": 1,
+      "szerzo": "József Attila",
+      "nemzetiseg": "magyar"
+    },
+    {
+      "id": 4,
+      "szerzo": "Arany János",
+      "nemzetiseg": "magyar"
+    },
+    {
+      "id": 5,
+      "szerzo": "Márai Sándor",
+      "nemzetiseg": "magyar"
+    },
+    {
+      "id": 6,
+      "szerzo": "Szepes Mária",
+      "nemzetiseg": "magyar"
+    }
+  ]
+}

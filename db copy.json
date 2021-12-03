@@ -1,0 +1,45 @@
+
+{
+  "konyveim": [
+    {
+      "id": 1,
+      "szerzo": "Robert Merle",
+      "cim": "Malevil",
+      "tipus": "regény",
+      "ar": 1200
+    },
+    {
+      "id": 1,
+      "szerzo": "Rejtő Jenő",
+      "cim": "A tizennégy karátos autó",
+      "tipus": "regény",
+      "ar": 1300
+    },
+    {
+      "id": 1,
+      "szerzo": "József Attila",
+      "cim": "Összes versei",
+      "tipus": "vers",
+      "ar": 2000
+    }
+  ],
+  "szerzo": [
+    {
+      "id": 3,
+      "szerzo": "Robert Merle",
+      "nemzetiseg": "magyar"
+      
+    },
+    {
+      "id": 2,
+      "szerzo": "Rejtő Jenő",
+      "nemzetiseg": "magyar"
+    },
+    {
+      "id": 1,
+      "szerzo": "József Attila",
+      "nemzetiseg": "magyar"
+    }
+  ]
+  
+}

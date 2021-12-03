@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script src="jquery-3.6.0.js"></script>
+    <script src="ajax.js"></script>
+    <script src="js.js"></script>
+  </head>
+  <body>
+    <div class="megjelenit"></div>
+
+    <div>
+      <label for="tipus">Válassz típust:</label>
+      <select id="tipus">
+        <option value="">--Típus--</option>       
+      </select>
+    </div>
+
+    <div><button id="rendez">Rendezés ár szerint</button></div>
+
+    <div>
+      <button id="ujadat">Új adat beszúrása</button>
+      <form>
+        <label for="inputID">ID: </label>
+        <input type="number" id="inputID" name="inputID" /><br />
+        <label for="inputSzerzo">Szerzo: </label>
+        <input type="text" id="inputSzerzo" name="inputSzerzo" /><br />
+        <label for="inputCim">Cim: </label>
+        <input type="text" id="inputCim" name="inputCim" /><br />
+        <label for="inputTipus">Tipus: </label>
+        <input type="text" id="inputTipus" name="inputTipus" /><br />
+        <label for="inputAr">Ar: </label>
+        <input type="number" id="inputAr" name="inputAr" /><br />
+      </form>
+    </div>
+    <div>
+      <button id="torles">Adat törlése</button>
+      <input type="number" name="torlesid" id="torlesid" value="" />
+    </div>
+
+    <div>
+      <button id="modosit">Adat módosítása</button>
+      <form>
+        <label for="modID">ID: </label>
+        <input type="number" id="modID" name="modID" /><br />
+        <label for="modSzerzo">Szerzo: </label>
+        <input type="text" id="modSzerzo" name="modSzerzo" /><br />
+        <label for="modCim">Cim: </label>
+        <input type="text" id="modCim" name="modCim" /><br />
+        <label for="modTipus">Tipus: </label>
+        <input type="text" id="modTipus" name="modTipus" /><br />
+        <label for="modAr">Ar: </label>
+        <input type="number" id="modAr" name="modAr" /><br />
+      </form>
+    </div>
+  </body>
+</html>
